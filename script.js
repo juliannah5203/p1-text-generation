@@ -12,6 +12,12 @@ const fillers = {
     name: ["Tom", "Jerry", "Julianna", "John", "Mary", "May", "Crystal", "Amber", "Eva", "Isbella", "Mia", "Ella", "Sofia", "Scarlett", "Emily", "William", "Owen", "Ethan"],
     country: ["United States", "Mexico", "Canada", "Brazil", "China", "Vietnam", "Chile", "India", "Iran", "Thailand", "Turkey", "United Kingdom", "South Korea", "Russia"],
     fruit: ["apples", "oranges", "grapes", "peaches", "pears", "strawberries", "bananas", "blueberries", "grapefruits", "plums", "lemons", "longans", "watermelons"],
+    amount: ["two", "three", "a lot", "so many", "eleven", "twelve", "immeasurable", "inestimable", "too many"],
+    scale: ["thousand", "billion", "million", "hundred", "trillion", "quadrillion", "quintillion"],
+    unit: ["grams", "kilograms", "pounds", "ounces", "tons"],
+    percent: ["10", "20", "30", "40", "50", "60", "70", "80", "90"],
+
+
 
 
 
@@ -21,7 +27,9 @@ const fillers = {
   const template = `$name, I come from $country!
   
   $country is one of the countries that produces the most $fruit. Do you like $fruit? If you do, come with me!
-  
+
+  Every year, there are approximately $amount $scale $unit of $fruit exported to other countries. $percent % of the production will be delivered to $country. The rest of them will export to $country and $country.
+
   `;
   
   
