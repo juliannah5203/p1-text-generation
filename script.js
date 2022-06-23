@@ -11,7 +11,7 @@ const fillers = {
     // message: ["call", "txt", "post", "decree", "shoutz", "tweets", "choiche", "hearkens", "harkening", "harkenening", "harkenenening", "...wait, no! Come back", "Watermelon"],
     name: ["Tom", "Jerry", "Julianna", "John", "Mary", "May", "Crystal", "Amber", "Eva", "Isbella", "Mia", "Ella", "Sofia", "Scarlett", "Emily", "William", "Owen", "Ethan"],
     country: ["United States", "Mexico", "Canada", "Brazil", "China", "Vietnam", "Chile", "India", "Iran", "Thailand", "Turkey", "United Kingdom", "South Korea", "Russia"],
-    fruit: ["apples", "oranges", "grapes", "peaches", "pears", "strawberries", "bananas", "blueberries", "grapefruits", "plums", "lemons", "longans", "watermelons"],
+    fruit: ["apples", "oranges", "grapes", "peaches", "pears", "strawberries", "bananas", "blueberries", "grapefruits", "plums", "lemons", "longans", "watermelons", "$fruit and $fruit", "$fruit, $fruit and $fruit"],
     amount: ["two", "three", "a lot", "so many", "eleven", "twelve", "immeasurable", "inestimable", "too many"],
     scale: ["thousand", "billion", "million", "hundred", "trillion", "quadrillion", "quintillion"],
     unit: ["grams", "kilograms", "pounds", "ounces", "tons"],
