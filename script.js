@@ -9,7 +9,9 @@ const fillers = {
     greeting: ["Hi", "Hello", "Nice to meet you"],
   };
   
-  const template = `$greeting! $name, I come from $country! $country is one of the countries that produces the most $fruit. Do you like $fruit? If you do, come with me! We can talk about how to plant $fruit in your hometown, $country, or if you are interesting in trading.
+  const template = `$greeting! $name, I come from $country! 
+  
+  $country is one of the countries that produces the most $fruit. Do you like $fruit? If you do, come with me! We can talk about how to plant $fruit in your hometown, $country, or if you are interesting in trading.
 
   Every year, there are approximately $amount $scale $unit of $fruit exported to other countries. $percent % of the production will be delivered to $country. The rest of them will export to $country and $country. 
 
